@@ -7,7 +7,7 @@ I'm a Information Technology student at Southeastern Louisiana University with a
 ### 🛠️ Current Projects
 
 - **[PaoerShip](https://github.com/ponderrr/paoer_ship)**: Working with Raspberry Pi and Python to build hardware-software interfaces
-- **Smart Advisor Platform**: Creating a system that intelligently integrates multiple APIs
+- **[Smart Advisor](https://github.com/ponderrr/smart-advisor)**: Creating a system that intelligently integrates multiple APIs
 
 ### 🌱 Always Learning
 

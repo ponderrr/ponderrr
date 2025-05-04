@@ -16,3 +16,5 @@ Currently exploring machine learning algorithms and their practical applications
 ### 📫 Let's Connect
 
 I'm always open to interesting conversations about AI, programming, or collaborative projects. Reach out if you want to chat about the future of tech or potential opportunities!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robertponder)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrew.ponderrr@icloud.com)

@@ -2,7 +2,7 @@
 
 ## Crafting Solutions through Development
 
-I'm a Information Technology student at Southeastern Louisiana University with a passion for what's possible with innovative tech.
+I'm a Information Technology student at Southeastern Louisiana University with a passion for AI & what's possible with innovative tech.
 
 ### 🛠️ Current Projects
 

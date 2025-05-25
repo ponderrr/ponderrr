@@ -19,7 +19,7 @@ I'm an Information Technology student at Southeastern Louisiana University passi
 - Rebuilding with React frontend + Python backend
 - Personalized suggestions using intelligent question analysis
 - User authentication, profiles, and subscription tiers
-- [View Repository](https://github.com/ponderrr/smart-advisor)
+- [View Repository](https://github.com/ponderrr/smartadvisor)
 
 ---
 

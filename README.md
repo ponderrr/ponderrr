@@ -103,11 +103,9 @@ I'm an Information Technology student at Southeastern Louisiana University passi
 
 Currently exploring **AI model training** and implementing them in real-world applications. I'm particularly interested in:
 
-- **Machine Learning Integration** for recommendation systems
-- **Game Development** with Python and hardware integration  
-- **Full-Stack Development** with React and modern web technologies
-- **Hardware Programming** with Raspberry Pi and GPIO controls
-- **User Experience Design** for intuitive application interfaces
+- **Machine Learning Integration** 
+- **Full-Stack Development** 
+- **User Experience Design** 
 
 ---
 

@@ -19,11 +19,6 @@ I'm a **Data Analytics Intern** and Information Technology student at Southeaste
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponderrr&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
-### 🏆 GitHub Trophies
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ponderrr&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies"/>
-</div>
-
 ## 🤝 Let's Connect!
 
 <div align="center">

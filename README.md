@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm Andrew Ponder (@ponderrr)
+# 👋 Hey there, I'm Andrew Ponder
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=IT+Student;AI+Enthusiast;Always+Learning+Something+New" alt="Typing SVG" />
@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm an AI & Data Analytics Intern at Laborde Product and an IT student at Southeastern Louisiana University passionate about solving real problems with AI and modern technology.
+I'm an AI & Data Analytics Intern at Laborde Products and an IT student at Southeastern Louisiana University passionate about solving real problems with AI and modern technology.
 
 ## 📈 GitHub Analytics
 

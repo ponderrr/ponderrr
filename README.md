@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm an AI & Data Analytics Intern at Laborde Products and an IT student at Southeastern Louisiana University passionate about solving real problems with AI and modern technology.
+I'm an **AI & Data Analytics Intern** at Laborde Products and an IT student at Southeastern Louisiana University passionate about solving real problems with AI and modern technology.
 
 ## 📈 GitHub Analytics
 

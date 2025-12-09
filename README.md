@@ -1,20 +1,12 @@
-<style>
-@keyframes pulse {
-  0% { opacity: 0.6; transform: translateY(0); }
-  50% { opacity: 1; transform: translateY(-2px); }
-  100% { opacity: 0.6; transform: translateY(0); }
-}
-.pulse-text {
-  color: white;
-  font-size: 28px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  animation: pulse 2.8s ease-in-out infinite;
-}
-</style>
-
 <div align="center" style="display:flex; flex-direction:column; gap:14px; align-items:center;">
-  <div class="pulse-text">I like ai.</div>
+  <!-- Pulsing text (SVG animate is allowed on GitHub; <style> tags are stripped) -->
+  <svg width="240" height="60" viewBox="0 0 240 60" aria-label="I like ai.">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+      fill="#ffffff" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="26" font-weight="600">
+      I like ai.
+      <animate attributeName="opacity" dur="2.8s" values="0.6;1;0.6" repeatCount="indefinite"/>
+    </text>
+  </svg>
 
   <!-- Single flowing wave (no external assets) -->
   <svg width="100%" height="190" viewBox="0 0 1200 190" preserveAspectRatio="none" style="border-radius:48px; overflow:hidden;">
@@ -29,28 +21,24 @@
     </defs>
 
     <g clip-path="url(#waveClip)">
-    <!-- Single wave -->
-    <path fill="url(#waveGrad)" fill-opacity="0.85">
-      <!-- Organic morphing -->
-      <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
-        values="
-          M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z;
-          M-360,40 C340,180 620,-22 1560,165 L1560,250 L-360,250 Z;
-          M-360,132 C200,68 610,198 1560,30 L1560,250 L-360,250 Z;
-          M-360,68 C340,-12 590,156 1560,140 L1560,250 L-360,250 Z;
-          M-360,126 C230,14 605,194 1560,50 L1560,250 L-360,250 Z;
-          M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z" />
+      <path fill="url(#waveGrad)" fill-opacity="0.85">
+        <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+          values="
+            M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z;
+            M-360,40 C340,180 620,-22 1560,165 L1560,250 L-360,250 Z;
+            M-360,132 C200,68 610,198 1560,30 L1560,250 L-360,250 Z;
+            M-360,68 C340,-12 590,156 1560,140 L1560,250 L-360,250 Z;
+            M-360,126 C230,14 605,194 1560,50 L1560,250 L-360,250 Z;
+            M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z" />
 
-      <!-- Gentle drift + tilt -->
-      <animateTransform attributeName="transform" attributeType="XML" type="translate"
-        dur="9.5s" repeatCount="indefinite" values="0 0; -120 4; 0 -4; 60 2; 0 0" />
-      <animateTransform attributeName="transform" attributeType="XML" additive="sum" type="skewX"
-        dur="10.5s" repeatCount="indefinite" values="0; 6; -5; 2; 0" />
-    </path>
+        <animateTransform attributeName="transform" attributeType="XML" type="translate"
+          dur="9.5s" repeatCount="indefinite" values="0 0; -120 4; 0 -4; 60 2; 0 0" />
+        <animateTransform attributeName="transform" attributeType="XML" additive="sum" type="skewX"
+          dur="10.5s" repeatCount="indefinite" values="0; 6; -5; 2; 0" />
+      </path>
 
-    <!-- Subtle gradient shift for originality -->
-    <animate xlink:href="#waveGrad" attributeName="x1" dur="10s" values="0%; 30%; 0%" repeatCount="indefinite" />
-    <animate xlink:href="#waveGrad" attributeName="x2" dur="10s" values="0%; 90%; 0%" repeatCount="indefinite" />
+      <animate xlink:href="#waveGrad" attributeName="x1" dur="10s" values="0%; 30%; 0%" repeatCount="indefinite" />
+      <animate xlink:href="#waveGrad" attributeName="x2" dur="10s" values="0%; 90%; 0%" repeatCount="indefinite" />
     </g>
   </svg>
 

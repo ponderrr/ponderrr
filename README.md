@@ -5,18 +5,12 @@
 
   <br/>
 
-  <!-- Tech stack icons (skillicons supported set) -->
+  <!-- Tech stack icons (supported skillicons only) -->
   <div>
-    <img src="https://skillicons.dev/icons?i=py,fastapi,tensorflow,sklearn,pandas,numpy&theme=dark" alt="Tech row 1" />
+    <img src="https://skillicons.dev/icons?i=py,fastapi,tensorflow,sklearn&theme=dark" alt="Tech row 1" />
   </div>
   <div>
     <img src="https://skillicons.dev/icons?i=postgres,docker,azure,git,cpp&theme=dark" alt="Tech row 2" />
-  </div>
-
-  <!-- Fallback badges for tools not in skillicons -->
-  <div style="margin-top:10px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-    <img src="https://img.shields.io/badge/Polars-1f6feb?style=flat-square&logo=polars&logoColor=white" />
-    <img src="https://img.shields.io/badge/Cursor-1f6feb?style=flat-square&logo=cursor&logoColor=white" />
   </div>
 
   <br/>

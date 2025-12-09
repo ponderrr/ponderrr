@@ -1,114 +1,78 @@
-<div align="center">
+<style>
+@keyframes pulse {
+  0% { opacity: 0.6; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(-2px); }
+  100% { opacity: 0.6; transform: translateY(0); }
+}
+.pulse-text {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  animation: pulse 2.8s ease-in-out infinite;
+}
+</style>
 
-# Andrew Ponder
+<div align="center" style="display:flex; flex-direction:column; gap:14px; align-items:center;">
+  <div class="pulse-text">I like ai.</div>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=500&lines=AI+%26+Data+Analytics+Intern;Full+Stack+Developer;Building+Intelligent+Solutions" alt="Typing SVG" />
+  <!-- Single flowing wave (no external assets) -->
+  <svg width="100%" height="190" viewBox="0 0 1200 190" preserveAspectRatio="none" style="border-radius:48px; overflow:hidden;">
+    <defs>
+      <linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#00d9ff" />
+        <stop offset="100%" stop-color="#8b5cf6" />
+      </linearGradient>
+      <clipPath id="waveClip">
+        <rect x="0" y="0" width="1200" height="190" rx="48" ry="48" />
+      </clipPath>
+    </defs>
 
+    <g clip-path="url(#waveClip)">
+    <!-- Single wave -->
+    <path fill="url(#waveGrad)" fill-opacity="0.85">
+      <!-- Organic morphing -->
+      <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+        values="
+          M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z;
+          M-360,40 C340,180 620,-22 1560,165 L1560,250 L-360,250 Z;
+          M-360,132 C200,68 610,198 1560,30 L1560,250 L-360,250 Z;
+          M-360,68 C340,-12 590,156 1560,140 L1560,250 L-360,250 Z;
+          M-360,126 C230,14 605,194 1560,50 L1560,250 L-360,250 Z;
+          M-360,118 C220,8 620,178 1560,72 L1560,250 L-360,250 Z" />
+
+      <!-- Gentle drift + tilt -->
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        dur="9.5s" repeatCount="indefinite" values="0 0; -120 4; 0 -4; 60 2; 0 0" />
+      <animateTransform attributeName="transform" attributeType="XML" additive="sum" type="skewX"
+        dur="10.5s" repeatCount="indefinite" values="0; 6; -5; 2; 0" />
+    </path>
+
+    <!-- Subtle gradient shift for originality -->
+    <animate xlink:href="#waveGrad" attributeName="x1" dur="10s" values="0%; 30%; 0%" repeatCount="indefinite" />
+    <animate xlink:href="#waveGrad" attributeName="x2" dur="10s" values="0%; 90%; 0%" repeatCount="indefinite" />
+    </g>
+  </svg>
+
+  <div style="padding-top:18px; width:100%; max-width:960px; display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:10px; justify-items:center;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+    <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+
+    <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
+    <a href="https://www.linkedin.com/in/robertponder/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://andrewponder.com"><img src="https://img.shields.io/badge/Portfolio-FF006E?style=for-the-badge&logo=safari&logoColor=white" /></a>
+    <a href="mailto:andrew.ponderrr@icloud.com"><img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </div>
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Machine%20Learning-FF006E?style=flat-square&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Location-Louisiana%2C%20USA-8B5CF6?style=flat-square&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-00D9FF?style=flat-square&labelColor=1a1b27" />
-</div>
-
-<br/>
-
-## About
-
-I'm an **AI & Data Analytics Intern** at Laborde Products and an IT student at Southeastern Louisiana University. I'm passionate about leveraging artificial intelligence and modern technology to solve real-world problems and create meaningful impact.
-
-<br/>
-
-<div align="center">
-
-## GitHub Statistics
-
-</div>
-
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ponderrr&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&hide_border=true&title_color=FF006E&icon_color=8B5CF6&text_color=9ca3af&bg_color=00000000" alt="GitHub Stats"/>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponderrr&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=FF006E&text_color=9ca3af&bg_color=00000000" alt="Top Languages"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ponderrr&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=9ca3af&line=FF006E&point=8B5CF6&area=true&area_color=8B5CF6" alt="Contribution Graph" />
-</div>
-
-<br/>
-
-<div align="center">
-
-## Tech Stack
-
-</div>
-
-<div align="center">
-
-**Languages**
-
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-
-**Data & AI**
-
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" />
-<img src="https://img.shields.io/badge/darts-00A3E0?style=for-the-badge&logo=python&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-## Connect
-
-<br/>
-
-<a href="https://www.linkedin.com/in/robertponder/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="https://andrewponder.com">
-  <img src="https://img.shields.io/badge/Portfolio-FF006E?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:andrew.ponderrr@icloud.com">
-  <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ponderrr&label=Profile%20Views&color=FF006E&style=flat-square" alt="Profile Views" />
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>💡 "The best way to predict the future is to invent it." — Alan Kay</sub>
-</div>
-
-<br/>

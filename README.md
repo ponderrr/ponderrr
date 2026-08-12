@@ -1,24 +1,66 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/main/wave.svg" alt="Animated wave header" width="100%" />
+
+  <!-- Scene 1 · Hook -->
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/main/terminal.svg" alt="Terminal — andrew ponder · ai/ml engineer · building things that learn" width="100%" />
+
+  <p>
+    <a href="https://www.linkedin.com/in/robertponder/"><img src="https://img.shields.io/badge/LinkedIn-24292f?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://andrewponder.com"><img src="https://img.shields.io/badge/Portfolio-24292f?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" /></a>
+    <a href="mailto:andrew.ponderrr@icloud.com"><img src="https://img.shields.io/badge/Email-24292f?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
 
   <br/>
-
   <br/>
 
-  <!-- Tech stack icons (supported skillicons only) -->
-  <div>
-    <img src="https://skillicons.dev/icons?i=py,fastapi,tensorflow,sklearn&theme=dark" alt="Tech row 1" />
-  </div>
-  <div>
-    <img src="https://skillicons.dev/icons?i=postgres,docker,azure,git,cpp&theme=dark" alt="Tech row 2" />
-  </div>
+  <!-- Scene 2 · Work -->
+
+  <p>
+    <b><a href="https://github.com/ponderrr/ruvector">ruvector</a></b> — a distributed vector database that learns
+    <br/><sub>Cypher queries · Raft consensus · self-improving GNN index</sub>
+  </p>
+  <br/>
+  <p>
+    <b><a href="https://github.com/ponderrr/local-stt">local-stt</a></b> — speech-to-text that never leaves your machine
+    <br/><sub>Rust · Whisper on GPU, Moonshine on CPU · Silero VAD · no cloud, no API keys</sub>
+  </p>
+  <br/>
+  <p>
+    <b><a href="https://github.com/ponderrr/whoopyy">whoopyy</a></b> — the type-safe Python SDK for the WHOOP API
+    <br/><sub>async-ready · auto-paginated · 360+ tests · zero mypy errors</sub>
+  </p>
+  <br/>
+  <p>
+    <b><a href="https://github.com/ponderrr/smart-advisor">smart-advisor</a></b> — recommendations tailored to who you actually are
+    <br/><sub>Claude · Supabase · React</sub>
+  </p>
 
   <br/>
+  <br/>
 
-  <!-- Clean contact row -->
-  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-    <a href="https://www.linkedin.com/in/robertponder/"><img src="https://img.shields.io/badge/LinkedIn-1f6feb?style=flat-square&logo=linkedin&logoColor=white" /></a>
-    <a href="https://andrewponder.com"><img src="https://img.shields.io/badge/Portfolio-1f6feb?style=flat-square&logo=safari&logoColor=white" /></a>
-    <a href="mailto:andrew.ponderrr@icloud.com"><img src="https://img.shields.io/badge/Email-1f6feb?style=flat-square&logo=gmail&logoColor=white" /></a>
-  </div>
+  <!-- Scene 3 · Stack -->
+  <img src="https://skillicons.dev/icons?i=py,ts,rust,cpp,fastapi,tensorflow,postgres,docker&theme=dark" alt="python · typescript · rust · c++ · fastapi · tensorflow · postgres · docker" />
+
+  <br/>
+  <br/>
+  <br/>
+
+  <!-- Scene 4 · Numbers -->
+  <img src="https://github-readme-stats.vercel.app/api?username=ponderrr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponderrr&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" height="165" alt="Top languages" />
+
+  <br/>
+  <br/>
+
+  <!-- Scene 5 · Delight -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ponderrr/ponderrr/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/github-snake.svg" alt="Contribution snake" width="100%" />
+  </picture>
+
+  <br/>
+  <br/>
+
+  <!-- Scene 6 · Sign-off -->
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/main/wave.svg" alt="always pondering." width="100%" />
+
 </div>

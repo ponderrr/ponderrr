@@ -34,13 +34,13 @@
   <br/>
 
   <!-- Scene 5 · Numbers -->
-  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/stats.svg" alt="This year: contributions, current streak, longest streak" width="100%" />
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/stats.svg?v=2" alt="This year: contributions, current streak, longest streak" width="100%" />
 
   <br/>
   <br/>
 
   <!-- Scene 6 · Scenery -->
-  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/scenery.svg" alt="Night landscape — the mountain ridgeline is this year's weekly contributions" width="100%" />
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/scenery.svg?v=2" alt="Night landscape — the mountain ridgeline is this year's weekly contributions" width="100%" />
 
 </div>
 

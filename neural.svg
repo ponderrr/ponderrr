@@ -1,8 +1,12 @@
 <svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d9ff"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+      <stop offset="0%" stop-color="#00d9ff">
+        <animate attributeName="stop-color" values="#00d9ff;#f472b6;#34d399;#00d9ff" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#fb923c;#38bdf8;#8b5cf6" dur="10s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
       <feGaussianBlur stdDeviation="3.5" result="b"/>
@@ -89,238 +93,256 @@
   </g>
   <g>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="0.0s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
+      <animateMotion dur="1.3s" begin="0.0s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="0.0s" repeatCount="indefinite"/>
+        dur="1.3s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="0.09s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
+      <animateMotion dur="1.3s" begin="0.09s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="0.09s" repeatCount="indefinite"/>
+        dur="1.3s" begin="0.09s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="0.18s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
+      <animateMotion dur="1.3s" begin="0.18s" repeatCount="indefinite" path="M 260 110 L 480 135 L 720 220 L 940 140"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="0.18s" repeatCount="indefinite"/>
+        dur="1.3s" begin="0.18s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="0.35s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
+      <animateMotion dur="1.48s" begin="0.28s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="0.35s" repeatCount="indefinite"/>
+        dur="1.48s" begin="0.28s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="0.44s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
+      <animateMotion dur="1.48s" begin="0.37s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="0.44s" repeatCount="indefinite"/>
+        dur="1.48s" begin="0.37s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="0.53s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
+      <animateMotion dur="1.48s" begin="0.46s" repeatCount="indefinite" path="M 260 180 L 480 235 L 720 110 L 940 220"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="0.53s" repeatCount="indefinite"/>
+        dur="1.48s" begin="0.46s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="0.7s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
+      <animateMotion dur="1.6600000000000001s" begin="0.56s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="0.7s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="0.56s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="0.79s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
+      <animateMotion dur="1.6600000000000001s" begin="0.65s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="0.79s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="0.65s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="0.88s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
+      <animateMotion dur="1.6600000000000001s" begin="0.74s" repeatCount="indefinite" path="M 260 250 L 480 335 L 720 275 L 940 300"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="0.88s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="0.74s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="1.05s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
+      <animateMotion dur="1.84s" begin="0.84s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="1.05s" repeatCount="indefinite"/>
+        dur="1.84s" begin="0.84s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="1.14s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
+      <animateMotion dur="1.84s" begin="0.93s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="1.14s" repeatCount="indefinite"/>
+        dur="1.84s" begin="0.93s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="1.23s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
+      <animateMotion dur="1.84s" begin="1.02s" repeatCount="indefinite" path="M 260 320 L 480 135 L 720 165 L 940 140"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="1.23s" repeatCount="indefinite"/>
+        dur="1.84s" begin="1.02s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="1.4s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
+      <animateMotion dur="1.3s" begin="1.12s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="1.4s" repeatCount="indefinite"/>
+        dur="1.3s" begin="1.12s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="1.49s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
+      <animateMotion dur="1.3s" begin="1.21s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="1.49s" repeatCount="indefinite"/>
+        dur="1.3s" begin="1.21s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="1.58s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
+      <animateMotion dur="1.3s" begin="1.3s" repeatCount="indefinite" path="M 260 110 L 480 235 L 720 330 L 940 220"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="1.58s" repeatCount="indefinite"/>
+        dur="1.3s" begin="1.3s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="1.75s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
+      <animateMotion dur="1.48s" begin="1.4s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="1.75s" repeatCount="indefinite"/>
+        dur="1.48s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="1.84s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
+      <animateMotion dur="1.48s" begin="1.49s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="1.84s" repeatCount="indefinite"/>
+        dur="1.48s" begin="1.49s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="1.93s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
+      <animateMotion dur="1.48s" begin="1.58s" repeatCount="indefinite" path="M 260 180 L 480 335 L 720 220 L 940 300"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="1.93s" repeatCount="indefinite"/>
+        dur="1.48s" begin="1.58s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="2.1s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
+      <animateMotion dur="1.6600000000000001s" begin="1.68s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="2.1s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="1.68s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="2.19s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
+      <animateMotion dur="1.6600000000000001s" begin="1.77s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="2.19s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="1.77s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="2.28s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
+      <animateMotion dur="1.6600000000000001s" begin="1.86s" repeatCount="indefinite" path="M 260 250 L 480 135 L 720 110 L 940 140"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="2.28s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="1.86s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="2.45s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
+      <animateMotion dur="1.84s" begin="1.96s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="2.45s" repeatCount="indefinite"/>
+        dur="1.84s" begin="1.96s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="2.54s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
+      <animateMotion dur="1.84s" begin="2.05s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="2.54s" repeatCount="indefinite"/>
+        dur="1.84s" begin="2.05s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="2.63s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
+      <animateMotion dur="1.84s" begin="2.14s" repeatCount="indefinite" path="M 260 320 L 480 235 L 720 275 L 940 220"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="2.63s" repeatCount="indefinite"/>
+        dur="1.84s" begin="2.14s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="2.8s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
+      <animateMotion dur="1.3s" begin="2.24s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="2.8s" repeatCount="indefinite"/>
+        dur="1.3s" begin="2.24s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="2.89s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
+      <animateMotion dur="1.3s" begin="2.33s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="2.89s" repeatCount="indefinite"/>
+        dur="1.3s" begin="2.33s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="1.8s" begin="2.98s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
+      <animateMotion dur="1.3s" begin="2.42s" repeatCount="indefinite" path="M 260 110 L 480 335 L 720 165 L 940 300"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="1.8s" begin="2.98s" repeatCount="indefinite"/>
+        dur="1.3s" begin="2.42s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="3.15s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
+      <animateMotion dur="1.48s" begin="2.52s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="3.15s" repeatCount="indefinite"/>
+        dur="1.48s" begin="2.52s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="3.24s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
+      <animateMotion dur="1.48s" begin="2.61s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="3.24s" repeatCount="indefinite"/>
+        dur="1.48s" begin="2.61s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.02s" begin="3.33s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
+      <animateMotion dur="1.48s" begin="2.7s" repeatCount="indefinite" path="M 260 180 L 480 135 L 720 330 L 940 140"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.02s" begin="3.33s" repeatCount="indefinite"/>
+        dur="1.48s" begin="2.7s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="3.5s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
+      <animateMotion dur="1.6600000000000001s" begin="2.8s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="3.5s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="2.8s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="3.59s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
+      <animateMotion dur="1.6600000000000001s" begin="2.89s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="3.59s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="2.89s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.24s" begin="3.68s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
+      <animateMotion dur="1.6600000000000001s" begin="2.98s" repeatCount="indefinite" path="M 260 250 L 480 235 L 720 220 L 940 220"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.24s" begin="3.68s" repeatCount="indefinite"/>
+        dur="1.6600000000000001s" begin="2.98s" repeatCount="indefinite"/>
     </circle>
     <circle r="5" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="3.85s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
+      <animateMotion dur="1.84s" begin="3.08s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
       <animate attributeName="opacity" values="0;1.0;1.0;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="3.85s" repeatCount="indefinite"/>
+        dur="1.84s" begin="3.08s" repeatCount="indefinite"/>
     </circle>
     <circle r="3" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="3.94s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
+      <animateMotion dur="1.84s" begin="3.17s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="3.94s" repeatCount="indefinite"/>
+        dur="1.84s" begin="3.17s" repeatCount="indefinite"/>
     </circle>
     <circle r="2" fill="url(#accent)" filter="url(#glow)" opacity="0">
-      <animateMotion dur="2.46s" begin="4.03s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
+      <animateMotion dur="1.84s" begin="3.26s" repeatCount="indefinite" path="M 260 320 L 480 335 L 720 110 L 940 300"/>
       <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.08;0.9;1"
-        dur="2.46s" begin="4.03s" repeatCount="indefinite"/>
+        dur="1.84s" begin="3.26s" repeatCount="indefinite"/>
     </circle>
   </g>
   <circle cx="260" cy="110" r="9" fill="#00d9ff" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#00d9ff;#f472b6;#34d399;#00d9ff" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
   <circle cx="260" cy="180" r="9" fill="#00d9ff" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#00d9ff;#f472b6;#34d399;#00d9ff" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.45s" repeatCount="indefinite"/>
     </circle>
   <circle cx="260" cy="250" r="9" fill="#00d9ff" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#00d9ff;#f472b6;#34d399;#00d9ff" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
     </circle>
   <circle cx="260" cy="320" r="9" fill="#00d9ff" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#00d9ff;#f472b6;#34d399;#00d9ff" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="1.35s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="85" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="135" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="1.35s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="185" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="235" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="2.25s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="285" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="2.7s" repeatCount="indefinite"/>
     </circle>
   <circle cx="480" cy="335" r="9" fill="#2eaffc" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#2eaffc;#f67d8d;#35ccb9;#2eaffc" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="3.15s" repeatCount="indefinite"/>
     </circle>
   <circle cx="720" cy="110" r="9" fill="#5d86f9" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#5d86f9;#f98765;#37c4d8;#5d86f9" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
     </circle>
   <circle cx="720" cy="165" r="9" fill="#5d86f9" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#5d86f9;#f98765;#37c4d8;#5d86f9" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="2.25s" repeatCount="indefinite"/>
     </circle>
   <circle cx="720" cy="220" r="9" fill="#5d86f9" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#5d86f9;#f98765;#37c4d8;#5d86f9" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="2.7s" repeatCount="indefinite"/>
     </circle>
   <circle cx="720" cy="275" r="9" fill="#5d86f9" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#5d86f9;#f98765;#37c4d8;#5d86f9" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="3.15s" repeatCount="indefinite"/>
     </circle>
   <circle cx="720" cy="330" r="9" fill="#5d86f9" filter="url(#softglow)" opacity="0.85">
+      <animate attributeName="fill" values="#5d86f9;#f98765;#37c4d8;#5d86f9" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
   <circle cx="940" cy="140" r="12" fill="#8b5cf6" filter="url(#glow)" opacity="0.85">
+      <animate attributeName="fill" values="#8b5cf6;#fb923c;#38bdf8;#8b5cf6" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="2.7s" repeatCount="indefinite"/>
     </circle>
   <circle cx="940" cy="220" r="12" fill="#8b5cf6" filter="url(#glow)" opacity="0.85">
+      <animate attributeName="fill" values="#8b5cf6;#fb923c;#38bdf8;#8b5cf6" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="3.15s" repeatCount="indefinite"/>
     </circle>
   <circle cx="940" cy="300" r="12" fill="#8b5cf6" filter="url(#glow)" opacity="0.85">
+      <animate attributeName="fill" values="#8b5cf6;#fb923c;#38bdf8;#8b5cf6" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
   </g>

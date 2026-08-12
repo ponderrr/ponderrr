@@ -16,12 +16,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ponderrr
           outputs: |
             dist/github-snake.svg?palette=github-light
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: generate year stats card
+        run: python3 scripts/build_stats.py --user ponderrr --out dist/stats.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

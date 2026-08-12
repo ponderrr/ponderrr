@@ -34,7 +34,7 @@
   <br/>
 
   <!-- Scene 5 · Numbers -->
-  <img src="https://streak-stats.demolab.com?user=ponderrr&theme=tokyonight&hide_border=true&background=00000000" height="165" alt="Contribution streak" />
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/stats.svg" alt="This year: contributions, current streak, longest streak" width="100%" />
 
   <br/>
   <br/>

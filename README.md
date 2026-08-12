@@ -39,11 +39,8 @@
   <br/>
   <br/>
 
-  <!-- Scene 6 · Delight -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ponderrr/ponderrr/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/github-snake.svg" alt="Contribution snake" width="100%" />
-  </picture>
+  <!-- Scene 6 · Scenery -->
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/output/scenery.svg" alt="Night landscape — the mountain ridgeline is this year's weekly contributions" width="100%" />
 
 </div>
 

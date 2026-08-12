@@ -1,4 +1,4 @@
-name: generate contribution snake
+name: generate profile art
 
 on:
   schedule:
@@ -18,15 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ponderrr
-          outputs: |
-            dist/github-snake.svg?palette=github-light
-            dist/github-snake-dark.svg?palette=github-dark
-
       - name: generate year stats card
-        run: python3 scripts/build_stats.py --user ponderrr --out dist/stats.svg
+        run: |
+          mkdir -p dist
+          python3 scripts/build_stats.py --user ponderrr --out dist/stats.svg
+
+      - name: generate contribution scenery
+        run: python3 scripts/build_scenery.py --user ponderrr --out dist/scenery.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

@@ -106,6 +106,13 @@ def main():
         )
 
     svg = f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* CSS entrance (not SMIL) — Chromium never starts SMIL clocks for
+       below-viewport images; fill-mode:both degrades to fully-visible. */
+    .card-in {{ animation: fadeUp 0.9s cubic-bezier(0.25, 1, 0.5, 1) 0.1s both; }}
+    @keyframes fadeUp {{ from {{ opacity: 0; transform: translateY(14px); }} to {{ opacity: 1; transform: none; }} }}
+    @media (prefers-reduced-motion: reduce) {{ .card-in {{ animation: none; }} }}
+  </style>
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d9ff"/>
@@ -131,11 +138,7 @@ def main():
     <clipPath id="frame"><rect x="{CX}" y="{CY}" width="{CW}" height="{CH}" rx="16"/></clipPath>
   </defs>
 
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.9s"
-      calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" values="0 14;0 0"
-      begin="0.1s" dur="0.9s" calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
+  <g class="card-in">
 
     <rect x="{CX}" y="{CY}" width="{CW}" height="{CH}" rx="16" fill="url(#sky)" filter="url(#shadow)"/>
 

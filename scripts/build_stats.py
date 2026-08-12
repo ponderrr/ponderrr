@@ -76,11 +76,7 @@ def render(total: int, current: int, longest: int, weeks: list, year: int) -> st
 
     def col(x, number, label, accent=False, delay=0.4):
         fill = "url(#accent)" if accent else "#e6edf3"
-        return f'''  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="{delay}s" dur="0.55s"
-      calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" values="0 10;0 0"
-      begin="{delay}s" dur="0.55s" calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
+        return f'''  <g class="in" style="animation-delay:{delay}s">
     <text x="{x}" y="162" text-anchor="middle" fill="{fill}" font-size="46" font-weight="800"
       letter-spacing="-1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">{number}</text>
     <text x="{x}" y="192" text-anchor="middle" fill="#8b949e" font-size="14"
@@ -101,12 +97,19 @@ def render(total: int, current: int, longest: int, weeks: list, year: int) -> st
             x = round(bx + i * (bw + gap), 1)
             delay = round(0.9 + i * 0.018, 3)
             bars.append(f'''    <rect x="{x}" y="{base - h}" width="{bw}" height="{h}" rx="2"
-      fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="{op:.2f}" begin="{delay}s" dur="0.4s"
-        calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
-    </rect>''')
+      fill="url(#accent)" opacity="{op:.2f}" class="bar" style="animation-delay:{delay}s"/>''')
 
     return f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* CSS (not SMIL): Chromium never starts SMIL clocks for below-viewport
+       images, and fill-mode:both degrades to fully-visible if disabled. */
+    .card-in {{ animation: fadeUp 0.7s cubic-bezier(0.25, 1, 0.5, 1) 0.1s both; }}
+    .in {{ animation: fadeUp 0.55s cubic-bezier(0.25, 1, 0.5, 1) both; }}
+    .bar {{ animation: barIn 0.4s cubic-bezier(0.25, 1, 0.5, 1) both; }}
+    @keyframes fadeUp {{ from {{ opacity: 0; transform: translateY(12px); }} to {{ opacity: 1; transform: none; }} }}
+    @keyframes barIn {{ from {{ opacity: 0; }} }}
+    @media (prefers-reduced-motion: reduce) {{ .card-in, .in, .bar {{ animation: none; }} }}
+  </style>
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="{ACCENT_1}"/>
@@ -116,11 +119,7 @@ def render(total: int, current: int, longest: int, weeks: list, year: int) -> st
       <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
   </defs>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.7s"
-      calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" values="0 14;0 0"
-      begin="0.1s" dur="0.7s" calcMode="spline" keySplines="0.25 1 0.5 1" fill="freeze"/>
+  <g class="card-in">
 
     <rect x="{card_x}" y="{card_y}" width="{card_w}" height="{card_h}" rx="16" fill="#0d1117" filter="url(#shadow)"/>
     <rect x="{card_x + 0.5}" y="{card_y + 0.5}" width="{card_w - 1}" height="{card_h - 1}" rx="15.5"

@@ -34,8 +34,7 @@
   <br/>
 
   <!-- Scene 5 · Numbers -->
-  <img src="https://github-readme-stats.vercel.app/api?username=ponderrr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ponderrr&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" height="165" alt="Top languages" />
+  <img src="https://streak-stats.demolab.com?user=ponderrr&theme=tokyonight&hide_border=true&background=00000000" height="165" alt="Contribution streak" />
 
   <br/>
   <br/>

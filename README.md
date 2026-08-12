@@ -10,15 +10,15 @@
   </p>
 
   <br/>
+
+  <!-- Scene 2 · Signal -->
+  <img src="https://raw.githubusercontent.com/ponderrr/ponderrr/main/neural.svg" alt="Signals propagating through a neural network" width="100%" />
+
+  <br/>
   <br/>
 
-  <!-- Scene 2 · Work -->
+  <!-- Scene 3 · Work -->
 
-  <p>
-    <b><a href="https://github.com/ponderrr/ruvector">ruvector</a></b> — a distributed vector database that learns
-    <br/><sub>Cypher queries · Raft consensus · self-improving GNN index</sub>
-  </p>
-  <br/>
   <p>
     <b><a href="https://github.com/ponderrr/local-stt">local-stt</a></b> — speech-to-text that never leaves your machine
     <br/><sub>Rust · Whisper on GPU, Moonshine on CPU · Silero VAD · no cloud, no API keys</sub>
@@ -27,11 +27,6 @@
   <p>
     <b><a href="https://github.com/ponderrr/whoopyy">whoopyy</a></b> — the type-safe Python SDK for the WHOOP API
     <br/><sub>async-ready · auto-paginated · 360+ tests · zero mypy errors</sub>
-  </p>
-  <br/>
-  <p>
-    <b><a href="https://github.com/ponderrr/smart-advisor">smart-advisor</a></b> — recommendations tailored to who you actually are
-    <br/><sub>Claude · Supabase · React</sub>
   </p>
 
   <br/>

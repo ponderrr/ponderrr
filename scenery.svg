@@ -1,0 +1,229 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* CSS entrance (not SMIL) — Chromium never starts SMIL clocks for
+       below-viewport images; fill-mode:both degrades to fully-visible. */
+    .card-in { animation: fadeUp 0.9s cubic-bezier(0.25, 1, 0.5, 1) 0.1s both; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .card-in { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+      <animate attributeName="x1" dur="14s" values="0%;22%;0%" repeatCount="indefinite"/>
+      <animate attributeName="x2" dur="14s" values="100%;78%;100%" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="55%" stop-color="#0d1220"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b949e" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8b949e" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="soft" filterUnits="userSpaceOnUse" x="10" y="0" width="1180" height="320">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="frame"><rect x="150" y="20" width="900" height="380" rx="16"/></clipPath>
+  </defs>
+
+  <g class="card-in">
+
+    <rect x="150" y="20" width="900" height="380" rx="16" fill="url(#sky)" filter="url(#shadow)"/>
+
+    <g clip-path="url(#frame)">
+      <!-- stars -->
+    <circle cx="325.1" cy="45.3" r="0.86" fill="#e6edf3" opacity="0.72">
+      <animate attributeName="opacity" values="0.72;0.18;0.72" dur="4.1s" begin="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="303.3" cy="169.6" r="1.24" fill="#e6edf3" opacity="0.49">
+      <animate attributeName="opacity" values="0.49;0.12;0.49" dur="3.0s" begin="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="686.2" cy="195.7" r="1.04" fill="#e6edf3" opacity="0.69">
+      <animate attributeName="opacity" values="0.69;0.17;0.69" dur="4.5s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="953.1" cy="49.4" r="1.61" fill="#e6edf3" opacity="0.33">
+      <animate attributeName="opacity" values="0.33;0.08;0.33" dur="4.5s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1011.5" cy="199.5" r="0.79" fill="#e6edf3" opacity="0.46">
+      <animate attributeName="opacity" values="0.46;0.12;0.46" dur="3.1s" begin="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="478.4" cy="134.3" r="0.80" fill="#e6edf3" opacity="0.36">
+      <animate attributeName="opacity" values="0.36;0.09;0.36" dur="3.3s" begin="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="852.2" cy="155.3" r="0.94" fill="#e6edf3" opacity="0.40">
+      <animate attributeName="opacity" values="0.40;0.10;0.40" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="926.9" cy="142.7" r="0.97" fill="#e6edf3" opacity="0.51">
+      <animate attributeName="opacity" values="0.51;0.13;0.51" dur="5.6s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="667.8" cy="165.5" r="1.61" fill="#e6edf3" opacity="0.73">
+      <animate attributeName="opacity" values="0.73;0.18;0.73" dur="5.7s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="456.4" cy="135.1" r="1.50" fill="#e6edf3" opacity="0.57">
+      <animate attributeName="opacity" values="0.57;0.14;0.57" dur="4.1s" begin="0.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1032.3" cy="58.5" r="1.19" fill="#e6edf3" opacity="0.44">
+      <animate attributeName="opacity" values="0.44;0.11;0.44" dur="3.7s" begin="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710.4" cy="171.8" r="1.57" fill="#e6edf3" opacity="0.57">
+      <animate attributeName="opacity" values="0.57;0.14;0.57" dur="4.2s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="776.1" cy="144.4" r="0.99" fill="#e6edf3" opacity="0.52">
+      <animate attributeName="opacity" values="0.52;0.13;0.52" dur="5.7s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="518.2" cy="107.4" r="1.36" fill="#e6edf3" opacity="0.48">
+      <animate attributeName="opacity" values="0.48;0.12;0.48" dur="4.4s" begin="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="492.5" cy="217.6" r="0.76" fill="#e6edf3" opacity="0.32">
+      <animate attributeName="opacity" values="0.32;0.08;0.32" dur="5.8s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="240.3" cy="58.5" r="1.60" fill="#e6edf3" opacity="0.67">
+      <animate attributeName="opacity" values="0.67;0.17;0.67" dur="3.1s" begin="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="844.9" cy="98.8" r="1.61" fill="#e6edf3" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.11;0.45" dur="5.9s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="283.5" cy="134.5" r="0.72" fill="#e6edf3" opacity="0.51">
+      <animate attributeName="opacity" values="0.51;0.13;0.51" dur="4.1s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600.4" cy="42.8" r="1.67" fill="#e6edf3" opacity="0.40">
+      <animate attributeName="opacity" values="0.40;0.10;0.40" dur="4.6s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="465.5" cy="139.7" r="1.58" fill="#e6edf3" opacity="0.41">
+      <animate attributeName="opacity" values="0.41;0.10;0.41" dur="5.5s" begin="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350.9" cy="85.5" r="0.74" fill="#e6edf3" opacity="0.47">
+      <animate attributeName="opacity" values="0.47;0.12;0.47" dur="5.9s" begin="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="527.4" cy="199.4" r="0.88" fill="#e6edf3" opacity="0.29">
+      <animate attributeName="opacity" values="0.29;0.07;0.29" dur="4.4s" begin="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="298.6" cy="47.6" r="1.16" fill="#e6edf3" opacity="0.36">
+      <animate attributeName="opacity" values="0.36;0.09;0.36" dur="4.6s" begin="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="536.2" cy="121.9" r="0.74" fill="#e6edf3" opacity="0.67">
+      <animate attributeName="opacity" values="0.67;0.17;0.67" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="446.5" cy="161.9" r="1.05" fill="#e6edf3" opacity="0.73">
+      <animate attributeName="opacity" values="0.73;0.18;0.73" dur="5.1s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="482.7" cy="103.6" r="0.92" fill="#e6edf3" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.17;0.68" dur="3.1s" begin="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="307.8" cy="38.7" r="1.57" fill="#e6edf3" opacity="0.69">
+      <animate attributeName="opacity" values="0.69;0.17;0.69" dur="3.2s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="686.4" cy="159.0" r="0.78" fill="#e6edf3" opacity="0.53">
+      <animate attributeName="opacity" values="0.53;0.13;0.53" dur="4.4s" begin="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="759.0" cy="202.6" r="1.28" fill="#e6edf3" opacity="0.29">
+      <animate attributeName="opacity" values="0.29;0.07;0.29" dur="3.0s" begin="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="432.9" cy="208.0" r="1.44" fill="#e6edf3" opacity="0.67">
+      <animate attributeName="opacity" values="0.67;0.17;0.67" dur="5.5s" begin="2.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="544.0" cy="145.5" r="0.85" fill="#e6edf3" opacity="0.38">
+      <animate attributeName="opacity" values="0.38;0.10;0.38" dur="4.8s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="575.0" cy="195.2" r="1.55" fill="#e6edf3" opacity="0.53">
+      <animate attributeName="opacity" values="0.53;0.13;0.53" dur="4.3s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="258.3" cy="117.1" r="1.09" fill="#e6edf3" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.14;0.58" dur="3.1s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="451.3" cy="209.8" r="1.15" fill="#e6edf3" opacity="0.73">
+      <animate attributeName="opacity" values="0.73;0.18;0.73" dur="4.7s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035.5" cy="34.3" r="1.00" fill="#e6edf3" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.15;0.58" dur="3.2s" begin="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="315.2" cy="37.2" r="1.10" fill="#e6edf3" opacity="0.54">
+      <animate attributeName="opacity" values="0.54;0.13;0.54" dur="5.7s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="638.8" cy="177.2" r="1.45" fill="#e6edf3" opacity="0.56">
+      <animate attributeName="opacity" values="0.56;0.14;0.56" dur="3.9s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="178.1" cy="48.3" r="1.02" fill="#e6edf3" opacity="0.69">
+      <animate attributeName="opacity" values="0.69;0.17;0.69" dur="4.6s" begin="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="436.2" cy="102.1" r="0.99" fill="#e6edf3" opacity="0.53">
+      <animate attributeName="opacity" values="0.53;0.13;0.53" dur="5.8s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="981.8" cy="202.2" r="0.90" fill="#e6edf3" opacity="0.31">
+      <animate attributeName="opacity" values="0.31;0.08;0.31" dur="5.9s" begin="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1009.6" cy="101.5" r="1.05" fill="#e6edf3" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;0.14;0.55" dur="5.8s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="855.9" cy="71.8" r="0.83" fill="#e6edf3" opacity="0.36">
+      <animate attributeName="opacity" values="0.36;0.09;0.36" dur="4.2s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+
+      <!-- aurora -->
+    <path fill="none" stroke="url(#accent)" stroke-width="36" stroke-linecap="round"
+      opacity="0.17" filter="url(#soft)">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.33;0.66;1"
+        values="M 70.0 118.6 C 99.4 113.3 187.8 85.5 246.7 87.0 C 305.6 88.5 364.4 128.9 423.3 127.4 C 482.2 126.0 541.1 76.7 600.0 78.1 C 658.9 79.6 717.8 137.8 776.7 136.3 C 835.6 134.8 894.4 67.8 953.3 69.3 C 1012.2 70.8 1100.6 132.5 1130.0 145.1 ;M 70.0 73.7 C 99.4 80.6 187.8 116.7 246.7 114.8 C 305.6 112.9 364.4 60.3 423.3 62.2 C 482.2 64.1 541.1 128.2 600.0 126.3 C 658.9 124.4 717.8 48.8 776.7 50.7 C 835.6 52.7 894.4 139.7 953.3 137.8 C 1012.2 135.9 1100.6 55.7 1130.0 39.2 ;M 70.0 126.1 C 99.4 121.9 187.8 99.6 246.7 100.8 C 305.6 102.0 364.4 134.3 423.3 133.2 C 482.2 132.0 541.1 92.5 600.0 93.7 C 658.9 94.9 717.8 141.4 776.7 140.2 C 835.6 139.0 894.4 85.5 953.3 86.6 C 1012.2 87.8 1100.6 137.2 1130.0 147.3 ;M 70.0 118.6 C 99.4 113.3 187.8 85.5 246.7 87.0 C 305.6 88.5 364.4 128.9 423.3 127.4 C 482.2 126.0 541.1 76.7 600.0 78.1 C 658.9 79.6 717.8 137.8 776.7 136.3 C 835.6 134.8 894.4 67.8 953.3 69.3 C 1012.2 70.8 1100.6 132.5 1130.0 145.1 "/>
+    </path>
+    <path fill="none" stroke="url(#accent)" stroke-width="50" stroke-linecap="round"
+      opacity="0.12" filter="url(#soft)">
+      <animate attributeName="d" dur="21s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.33;0.66;1"
+        values="M 70.0 158.4 C 99.4 151.3 187.8 113.6 246.7 115.6 C 305.6 117.6 364.4 172.4 423.3 170.4 C 482.2 168.4 541.1 101.7 600.0 103.7 C 658.9 105.7 717.8 184.3 776.7 182.3 C 835.6 180.3 894.4 89.7 953.3 91.7 C 1012.2 93.7 1100.6 177.2 1130.0 194.3 ;M 70.0 97.7 C 99.4 106.9 187.8 155.9 246.7 153.3 C 305.6 150.7 364.4 79.5 423.3 82.1 C 482.2 84.7 541.1 171.4 600.0 168.8 C 658.9 166.3 717.8 64.0 776.7 66.6 C 835.6 69.2 894.4 187.0 953.3 184.4 C 1012.2 181.8 1100.6 73.3 1130.0 51.0 ;M 70.0 168.5 C 99.4 162.8 187.8 132.7 246.7 134.3 C 305.6 135.9 364.4 179.7 423.3 178.1 C 482.2 176.5 541.1 123.1 600.0 124.7 C 658.9 126.3 717.8 189.3 776.7 187.7 C 835.6 186.1 894.4 113.6 953.3 115.2 C 1012.2 116.8 1100.6 183.5 1130.0 197.2 ;M 70.0 158.4 C 99.4 151.3 187.8 113.6 246.7 115.6 C 305.6 117.6 364.4 172.4 423.3 170.4 C 482.2 168.4 541.1 101.7 600.0 103.7 C 658.9 105.7 717.8 184.3 776.7 182.3 C 835.6 180.3 894.4 89.7 953.3 91.7 C 1012.2 93.7 1100.6 177.2 1130.0 194.3 "/>
+    </path>
+    <path fill="none" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"
+      opacity="0.09" filter="url(#soft)">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.33;0.66;1"
+        values="M 70.0 90.4 C 99.4 86.4 187.8 65.1 246.7 66.2 C 305.6 67.3 364.4 98.3 423.3 97.2 C 482.2 96.0 541.1 58.3 600.0 59.5 C 658.9 60.6 717.8 105.0 776.7 103.9 C 835.6 102.8 894.4 51.6 953.3 52.7 C 1012.2 53.8 1100.6 101.0 1130.0 110.7 ;M 70.0 56.1 C 99.4 61.3 187.8 89.0 246.7 87.5 C 305.6 86.0 364.4 45.8 423.3 47.3 C 482.2 48.8 541.1 97.8 600.0 96.3 C 658.9 94.8 717.8 37.0 776.7 38.5 C 835.6 40.0 894.4 106.6 953.3 105.1 C 1012.2 103.6 1100.6 42.3 1130.0 29.7 ;M 70.0 96.1 C 99.4 92.9 187.8 75.9 246.7 76.8 C 305.6 77.7 364.4 102.4 423.3 101.5 C 482.2 100.6 541.1 70.5 600.0 71.4 C 658.9 72.3 717.8 107.8 776.7 106.9 C 835.6 106.0 894.4 65.1 953.3 66.0 C 1012.2 66.9 1100.6 104.6 1130.0 112.3 ;M 70.0 90.4 C 99.4 86.4 187.8 65.1 246.7 66.2 C 305.6 67.3 364.4 98.3 423.3 97.2 C 482.2 96.0 541.1 58.3 600.0 59.5 C 658.9 60.6 717.8 105.0 776.7 103.9 C 835.6 102.8 894.4 51.6 953.3 52.7 C 1012.2 53.8 1100.6 101.0 1130.0 110.7 "/>
+    </path>
+
+      <!-- shooting star: brief streak every 16s -->
+      <g opacity="0">
+        <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+          values="0;0;1;0;0" keyTimes="0;0.71;0.745;0.78;1"/>
+        <line x1="0" y1="0" x2="46" y2="14" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round">
+          <animateTransform attributeName="transform" type="translate" dur="16s" repeatCount="indefinite"
+            values="880 60; 880 60; 640 140; 640 140" keyTimes="0;0.71;0.78;1"/>
+        </line>
+      </g>
+
+      <!-- mountains: far ridge is the real contribution histogram -->
+      <g>
+        <path d="M 60.0 272.3 C 64.7 269.9 78.9 257.0 88.4 258.0 C 97.9 259.0 107.4 274.4 116.8 278.5 C 126.3 282.7 135.8 283.9 145.3 283.0 C 154.7 282.0 164.2 273.8 173.7 272.9 C 183.2 271.9 192.6 278.6 202.1 277.3 C 211.6 276.1 221.1 272.1 230.5 265.4 C 240.0 258.8 249.5 238.2 258.9 237.7 C 268.4 237.1 277.9 260.7 287.4 262.0 C 296.8 263.3 306.3 245.3 315.8 245.5 C 325.3 245.8 334.7 257.2 344.2 263.4 C 353.7 269.7 363.2 280.4 372.6 283.2 C 382.1 285.9 391.6 282.7 401.1 279.7 C 410.5 276.7 420.0 265.6 429.5 265.0 C 438.9 264.5 448.4 281.1 457.9 276.5 C 467.4 271.9 476.8 237.9 486.3 237.3 C 495.8 236.6 505.3 266.7 514.7 272.7 C 524.2 278.7 533.7 274.0 543.2 273.5 C 552.6 273.0 562.1 268.7 571.6 269.7 C 581.1 270.6 590.5 285.5 600.0 279.3 C 609.5 273.1 618.9 233.1 628.4 232.4 C 637.9 231.8 647.4 267.7 656.8 275.3 C 666.3 282.9 675.8 279.9 685.3 277.9 C 694.7 276.0 704.2 265.2 713.7 263.6 C 723.2 262.1 732.6 268.4 742.1 268.5 C 751.6 268.5 761.1 267.5 770.5 264.0 C 780.0 260.5 789.5 247.0 798.9 247.5 C 808.4 248.0 817.9 263.4 827.4 267.1 C 836.8 270.7 846.3 266.1 855.8 269.5 C 865.3 272.9 874.7 289.3 884.2 287.4 C 893.7 285.5 903.2 263.0 912.6 258.2 C 922.1 253.4 931.6 268.7 941.1 258.8 C 950.5 248.9 960.0 205.7 969.5 198.8 C 978.9 192.0 988.4 219.2 997.9 217.7 C 1007.4 216.3 1016.8 185.3 1026.3 190.2 C 1035.8 195.0 1045.3 244.3 1054.7 246.9 C 1064.2 249.5 1073.7 220.0 1083.2 205.7 C 1092.6 191.4 1102.1 158.8 1111.6 161.0 C 1121.1 163.2 1135.3 209.3 1140.0 219.0 L 1140.0 400 L 60.0 400 Z" fill="#1b2230"/>
+        <path d="M 60.0 272.3 C 64.7 269.9 78.9 257.0 88.4 258.0 C 97.9 259.0 107.4 274.4 116.8 278.5 C 126.3 282.7 135.8 283.9 145.3 283.0 C 154.7 282.0 164.2 273.8 173.7 272.9 C 183.2 271.9 192.6 278.6 202.1 277.3 C 211.6 276.1 221.1 272.1 230.5 265.4 C 240.0 258.8 249.5 238.2 258.9 237.7 C 268.4 237.1 277.9 260.7 287.4 262.0 C 296.8 263.3 306.3 245.3 315.8 245.5 C 325.3 245.8 334.7 257.2 344.2 263.4 C 353.7 269.7 363.2 280.4 372.6 283.2 C 382.1 285.9 391.6 282.7 401.1 279.7 C 410.5 276.7 420.0 265.6 429.5 265.0 C 438.9 264.5 448.4 281.1 457.9 276.5 C 467.4 271.9 476.8 237.9 486.3 237.3 C 495.8 236.6 505.3 266.7 514.7 272.7 C 524.2 278.7 533.7 274.0 543.2 273.5 C 552.6 273.0 562.1 268.7 571.6 269.7 C 581.1 270.6 590.5 285.5 600.0 279.3 C 609.5 273.1 618.9 233.1 628.4 232.4 C 637.9 231.8 647.4 267.7 656.8 275.3 C 666.3 282.9 675.8 279.9 685.3 277.9 C 694.7 276.0 704.2 265.2 713.7 263.6 C 723.2 262.1 732.6 268.4 742.1 268.5 C 751.6 268.5 761.1 267.5 770.5 264.0 C 780.0 260.5 789.5 247.0 798.9 247.5 C 808.4 248.0 817.9 263.4 827.4 267.1 C 836.8 270.7 846.3 266.1 855.8 269.5 C 865.3 272.9 874.7 289.3 884.2 287.4 C 893.7 285.5 903.2 263.0 912.6 258.2 C 922.1 253.4 931.6 268.7 941.1 258.8 C 950.5 248.9 960.0 205.7 969.5 198.8 C 978.9 192.0 988.4 219.2 997.9 217.7 C 1007.4 216.3 1016.8 185.3 1026.3 190.2 C 1035.8 195.0 1045.3 244.3 1054.7 246.9 C 1064.2 249.5 1073.7 220.0 1083.2 205.7 C 1092.6 191.4 1102.1 158.8 1111.6 161.0 C 1121.1 163.2 1135.3 209.3 1140.0 219.0 "
+          fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.35"/>
+      </g>
+      <path d="M 60.0 286.7 C 64.7 280.7 78.9 252.4 88.4 251.0 C 97.9 249.6 107.4 269.7 116.8 278.5 C 126.3 287.3 135.8 305.5 145.3 303.9 C 154.7 302.3 164.2 271.9 173.7 269.0 C 183.2 266.0 192.6 285.0 202.1 285.9 C 211.6 286.8 221.1 270.1 230.5 274.3 C 240.0 278.5 249.5 305.1 258.9 311.2 C 268.4 317.3 277.9 307.9 287.4 310.8 C 296.8 313.7 306.3 327.6 315.8 328.8 C 325.3 329.9 334.7 319.8 344.2 317.7 C 353.7 315.7 363.2 318.5 372.6 316.3 C 382.1 314.0 391.6 304.6 401.1 304.3 C 410.5 303.9 420.0 312.3 429.5 314.4 C 438.9 316.6 448.4 317.2 457.9 317.1 C 467.4 317.1 476.8 313.2 486.3 314.2 C 495.8 315.1 505.3 321.8 514.7 323.0 C 524.2 324.1 533.7 326.0 543.2 321.3 C 552.6 316.7 562.1 294.6 571.6 295.0 C 581.1 295.4 590.5 320.0 600.0 323.8 C 609.5 327.6 618.9 318.5 628.4 317.9 C 637.9 317.3 647.4 319.9 656.8 320.2 C 666.3 320.5 675.8 323.4 685.3 319.7 C 694.7 316.0 704.2 297.5 713.7 297.9 C 723.2 298.3 732.6 319.2 742.1 322.1 C 751.6 324.9 761.1 314.7 770.5 315.0 C 780.0 315.4 789.5 322.2 798.9 324.1 C 808.4 325.9 817.9 327.8 827.4 326.2 C 836.8 324.5 846.3 317.9 855.8 314.0 C 865.3 310.2 874.7 303.2 884.2 303.0 C 893.7 302.9 903.2 314.0 912.6 313.2 C 922.1 312.4 931.6 297.8 941.1 298.2 C 950.5 298.5 960.0 311.2 969.5 315.3 C 978.9 319.3 988.4 321.8 997.9 322.6 C 1007.4 323.3 1016.8 319.3 1026.3 319.9 C 1035.8 320.4 1045.3 325.5 1054.7 326.0 C 1064.2 326.6 1073.7 325.9 1083.2 323.3 C 1092.6 320.8 1102.1 311.3 1111.6 310.7 C 1121.1 310.1 1135.3 318.0 1140.0 319.5 L 1140.0 400 L 60.0 400 Z" fill="#131a26">
+        <animateTransform attributeName="transform" type="translate" dur="26s" repeatCount="indefinite"
+          calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.5;1" values="0 0;-9 0;0 0"/>
+      </path>
+      <rect x="110" y="250" width="980" height="90" fill="url(#mist)">
+        <animateTransform attributeName="transform" type="translate" dur="30s" repeatCount="indefinite"
+          calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.5;1" values="-18 0;18 0;-18 0"/>
+      </rect>
+      <path d="M 60.0 385.2 C 90.0 383.1 180.0 373.0 240.0 372.3 C 300.0 371.6 360.0 381.6 420.0 380.9 C 480.0 380.2 540.0 368.2 600.0 368.0 C 660.0 367.8 720.0 379.3 780.0 379.8 C 840.0 380.4 900.0 370.5 960.0 371.2 C 1020.0 371.9 1110.0 382.0 1140.0 384.2 L 1140.0 400 L 60.0 400 Z" fill="#0a0e14">
+        <animateTransform attributeName="transform" type="translate" dur="20s" repeatCount="indefinite"
+          calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.5;1" values="0 0;12 0;0 0"/>
+      </path>
+
+      <!-- caption -->
+      <text x="180" y="378" font-size="13"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+        <tspan fill="#7ee787">❯</tspan> <tspan fill="#8b949e">render --terrain contributions@2026</tspan>
+        <tspan fill="#6e7681"> · 6,890 peaks</tspan>
+      </text>
+    </g>
+
+    <rect x="150.5" y="20.5" width="899" height="379" rx="15.5"
+      fill="none" stroke="#30363d" stroke-width="1"/>
+    <line x1="166" y1="21" x2="1034" y2="21"
+      stroke="url(#accent)" stroke-width="1.5" opacity="0.55"/>
+  </g>
+</svg>
